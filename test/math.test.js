@@ -1,6 +1,6 @@
 const test = require('node:test');
 const assert = require('node:assert');
-const { add, isEven, formatName } = require('../src/math');
+const { add, isEven, formatName } = require('../src/math.js');
 
 test('add sums two numbers', () => {
   assert.strictEqual(add(2, 3), 5);
